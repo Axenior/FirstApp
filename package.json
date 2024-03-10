@@ -1,0 +1,25 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "First App",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "matius",
+  "license": "ISC",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "electron": "^29.1.1"
+  }
+}
